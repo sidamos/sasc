@@ -452,6 +452,8 @@ echo "	$0 $*" >> config.log
 # Name change notice
 
 echo "
+
+###############################################################
    !!NOTICE TO ALL USERS OF MY REPO!!
 
 Googling for sasc, I noticed that there are quite a few
@@ -465,8 +467,10 @@ to a more descriptive one:'ffdecsawrapper'. After all, that's
 what it is.
 
 Stay tuned!
+###############################################################
+
 "
-sleep 3
+sleep 5
 
 echo "
 Everything looks ok!
