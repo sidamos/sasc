@@ -448,8 +448,27 @@ rm -rf "${TMPDIR}"
 echo "CXX=$CXX" >> config.mak
 date >> config.log
 echo "	$0 $*" >> config.log
-echo "
 
+# Name change notice
+
+echo "
+   !!NOTICE TO ALL USERS OF MY REPO!!
+
+Googling for sasc, I noticed that there are quite a few
+organisations that use this abbreviation. Some of them
+expand to 'Small arms School Corps' or even
+'Sexual Assault Support Center'
+
+I don't like to be in that list, so soon I'm going to change
+both the name of this software, as well as the repo's name
+to a more descriptive one:'ffdecsawrapper'. After all, that's
+what it is.
+
+Stay tuned!
+"
+sleep 3
+
+echo "
 Everything looks ok!
 
 Just hit 'enter' to run
