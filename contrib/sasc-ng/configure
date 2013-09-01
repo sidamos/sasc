@@ -454,24 +454,37 @@ echo "	$0 $*" >> config.log
 echo "
 
 ###############################################################
-   !!NOTICE TO ALL USERS OF MY REPO!!
+       !!NOTICE TO ALL USERS OF THIS REPO!!
 
 Googling for sasc, I noticed that there are quite a few
 organisations that use this abbreviation. Some of them
 expand to 'Small arms School Corps' or even
 'Sexual Assault Support Center'
 
-I don't like to be in that list, so soon I'm going to change
-both the name of this software, as well as the repo's name
+I don't like to be in that list, so I have changed both
+the name of this software's binary, as well as the repo's name
 to a more descriptive one:'ffdecsawrapper'. After all, that's
 what it is.
 
-Stay tuned!
+Usage:
+cd /usr/src
+
+rm -rf ffdecsawrapper
+
+git clone https://github.com/bas-t/ffdecsawrapper.git
+
+cd ffdecsawrapper/contrib/ffdecsawrapper
+
+./configure --compiletype=release
+
+make && make module
+
+This repo will be available until march 12 2014
+As of now, all further development will take place at the new repo.
 ###############################################################
 
 "
 sleep 5
-
 echo "
 Everything looks ok!
 
