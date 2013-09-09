@@ -473,9 +473,9 @@ rm -rf ffdecsawrapper
 
 git clone https://github.com/bas-t/ffdecsawrapper.git
 
-cd ffdecsawrapper/contrib/ffdecsawrapper
+cd ffdecsawrapper
 
-./configure --compiletype=release
+./configure
 
 make && make module
 
